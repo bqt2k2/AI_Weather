@@ -19,7 +19,7 @@ templates = Jinja2Templates(directory="templates")
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
 # Khởi tạo model Gemini
-model = genai.GenerativeModel("gemini-1.5-pro")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 
 @app.get("/", response_class=HTMLResponse)
