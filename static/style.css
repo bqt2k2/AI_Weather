@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    background: #f0f0f0;
+    padding: 30px;
+}
+
+.chat-container {
+    width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.chat-box {
+    background: #f9f9f9;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}

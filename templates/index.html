@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gemini Chat</title>
+</head>
+
+<body>
+    <h1>Gemini Chat</h1>
+    <form method="post" action="/chat">
+        <input type="text" name="message" placeholder="Nhập tin nhắn..." required>
+        <button type="submit">Gửi</button>
+    </form>
+    <div>
+        <h2>Phản hồi:</h2>
+        <p>{{ response }}</p>
+    </div>
+</body>
+
+</html>
